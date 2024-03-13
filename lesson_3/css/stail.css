@@ -1,0 +1,28 @@
+@import url("reser.css");
+
+.container__navigation p{
+	color: blue;
+}
+
+.container__list-link{
+	color: darkcyan;
+}
+
+.container__title{
+	color: green;
+}
+
+.container__title p {
+	color: black;
+}
+.big-red{
+	color: red;
+}
+
+.container__article h2{
+	color: chartreuse;
+}
+
+.container__article p{
+	color: coral;
+}
