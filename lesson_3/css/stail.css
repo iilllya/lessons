@@ -1,0 +1,70 @@
+/* @import url("reser.css"); */
+
+*{
+	color: rgb(0, 0, 0);
+}
+
+.yellow{
+	color: rgb(214, 214, 65);
+}
+
+.blue{
+color: rgb(8, 8, 181);
+}
+
+
+h1,
+h2{
+	color: rgb(4, 123, 144);
+}
+
+.container__title p{
+	color: rgb(18, 184, 184);
+}
+
+mark{
+	color: rgb(237, 75, 75);
+}
+
+[class*="title-style"] {
+	color: chocolate;
+}
+
+p.description{
+	color: rgb(18, 184, 184);
+}
+
+
+.container__article a{
+	color: rgb(4, 234, 69);
+}
+
+.test__text.text{
+color: rgb(6, 136, 251);
+}
+
+.test2>ul li{
+color: rgb(0, 135, 7);
+}
+
+#testtest{
+	color: rgb(167, 0, 0);
+}
+
+.test2__text + p {
+	color: rgb(255, 0, 221);
+	}
+
+.test2__text ~ div {
+	color: rgb(0, 255, 98);
+	}
+
+.test2__text li{
+	color: darkkhaki;
+}
+
+.test2__text p{
+	color: aliceblue;
+}
+
+
