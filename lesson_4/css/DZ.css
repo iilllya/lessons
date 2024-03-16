@@ -1,0 +1,56 @@
+@import url("fonts.css");
+
+@import url("reser.css");
+
+body{
+font-family: "Proxima Nova Regular";
+color: #2b2929;
+}
+
+h1,
+h2{
+	font-size: 40px;
+	text-align: center;
+	font-family: "Proxima Nova Semibold";
+	line-height: 48px;
+}
+
+.sub-title p,
+.page__text p,
+.page__list p {
+	font-size: 16px;
+	line-height: 30px;
+	font-family: "Proxima Nova Regular";
+}
+
+.page__img{
+	text-align: center;
+	/* знаю що так не правильно) хочу щоб фото по середені */
+}
+
+h3{
+	text-align: left;
+	line-height: 28px;
+	font-size: 20px;
+	font-family: "Proxima Nova Semibold";
+}
+
+.page__list li{
+	line-height: 28px;
+}
+
+.link{
+	text-align: center;
+	line-height: 80px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	text-shadow: 0 5px 10px rgb(0, 0, 0),0 -5px 10px rgb(73, 185, 42);
+}
+
+.link a{
+	color: rgb(61, 42, 42);
+	text-decoration: underline;
+	text-decoration-color: rgba(207, 15, 15, 0.222);
+}
+
+
