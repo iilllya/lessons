@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+@import url(reser.css);
+
+/* header */
+.header {
+	font-family: "Proxima Nova", sans-serif;
+	color: #2b2929;
+
+}
+
+.header__container {
+padding: 70px;
+background-color: rgb(243, 243, 243);
+}
+
+.header__title {
+	text-align: center;
+	font-size: 40px;
+	line-height: 48px;
+	font-weight: 600;
+}
+
+.header__columns {
+	max-width: 1335px;
+	margin: 0 auto;
+	
+}
+
+.column {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.column__container {
+	width: 300px;
+	text-align: center;
+	margin: 0 15px;
+}
+
+.column__title {
+	margin-bottom: 30px;
+	font-size: 26px;
+	line-height: 34px;
+	font-weight: 600;
+}
+
+.column__text {
+	line-height: 30px;
+
+}
+
+
+
+
+
+
+/* main */
+.page {
+	color: #2b2929;
+	font-family: "Proxima Nova", sans-serif;
+}
+
+.page__container {
+	max-width: 1070px;
+	margin: 0 auto;
+}
+
+.page__title {
+	font-size: 40px;
+	line-height: 48px;
+	margin: 40px 0;
+
+}
+
+.page__sub-title {
+	line-height: 30px;
+		margin: 40px 0;
+
+}
+.page__sub-title p{
+	margin-bottom: 15px;
+}
+
+
+.page__description {
+	font-size: 20px;
+	line-height: 28px;
+	margin-bottom: 30px ;
+	font-weight: 600;
+}
+
+.page__list-container{
+	margin-bottom: 40px;
+}
+
+.page__list p {
+	line-height: 30px;
+}
+
+.page__list li{
+	margin-bottom: 20px;
+	line-height: 30px;
+	display: block;
+	padding-left: 47px;
+}
+
+
+
+
+
+
+
+
+
+
+/* foorer */
+footer{
+	font-family: "Roboto";
+	background-color: #ededed;
+}
+
+.footer__title h1{
+	font-size: 50px;
+	text-align: center;
+	padding: 100px 0 60px 0;
+}
+
+.footer__footer h2{
+	font-size: 50px;
+	text-align: center;
+	padding: 70px 0 100px 0;
+}
+
+.footer__image{
+	display: block;
+	text-align: center;
+}
+
+.footer__image img{
+	padding: 0 12.5px;
+}
+
