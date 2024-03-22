@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+
 @import url(reser.css);
 
-/* header */
+/* header  index.html*/
 .header {
 	font-family: "Proxima Nova", sans-serif;
+	
 	color: #2b2929;
 
 }
@@ -19,6 +22,7 @@ background-color: rgb(243, 243, 243);
 	font-size: 40px;
 	line-height: 48px;
 	font-weight: 600;
+	margin-bottom: 40px;
 }
 
 .header__columns {
@@ -51,11 +55,7 @@ background-color: rgb(243, 243, 243);
 }
 
 
-
-
-
-
-/* main */
+/* main index.html*/
 .page {
 	color: #2b2929;
 	font-family: "Proxima Nova", sans-serif;
@@ -99,6 +99,7 @@ background-color: rgb(243, 243, 243);
 }
 
 .page__list li{
+	background: url(../img/mark.png) no-repeat;
 	margin-bottom: 20px;
 	line-height: 30px;
 	display: block;
@@ -107,26 +108,19 @@ background-color: rgb(243, 243, 243);
 
 
 
-
-
-
-
-
-
-
-/* foorer */
+/* foorer index.html*/
 footer{
 	font-family: "Roboto";
 	background-color: #ededed;
 }
 
-.footer__title h1{
+.footer__title h3{
 	font-size: 50px;
 	text-align: center;
 	padding: 100px 0 60px 0;
 }
 
-.footer__footer h2{
+.footer__text h4{
 	font-size: 50px;
 	text-align: center;
 	padding: 70px 0 100px 0;
@@ -140,4 +134,30 @@ footer{
 .footer__image img{
 	padding: 0 12.5px;
 }
+
+.bottom{
+	background-color: #2b2929;
+	max-height: 100px;
+}
+
+.bottom__container{
+	margin: 0 auto;
+	text-align: center;
+	min-height: 60px;
+
+}
+
+.block{
+	display: inline-block;
+	padding: 20px 100px;
+}
+
+.block a{
+	color: rgba(255, 255, 255, 0.773);
+	letter-spacing: 5px;
+	font-family: "Rubik Doodle Shadow", system-ui;
+	font-size: 20px;
+	text-shadow: 0 0 2px #ededed;
+}
+/*  */
 
