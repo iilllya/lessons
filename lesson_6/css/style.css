@@ -199,11 +199,18 @@
 	background: #823fec;
 	padding: 20px;
 	border-radius: 60% 100% 100% 70% / 60% 0% 100% 30%;
+	box-shadow: 2px 3px 0 2px #adacac;
+	
 }
 
-.link{
-	box-shadow: 2px 3px 0 2px #adacac;
+.link:hover{
+	border-radius: 40%;
+	box-shadow:  0 0 0 5px  #fc4545;
+	 transition-duration: 0.2s; /* знаю,що ще не можна. Але не сваріть) */
 }
+
+
+
 
 
 
