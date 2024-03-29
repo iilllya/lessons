@@ -1,0 +1,251 @@
+
+@import url(fonts.css);
+
+
+@import url(reser.css);
+
+
+.header__title {
+	background-color: #ececec;
+	min-height: 50px;
+	text-align: center;
+	padding-top: 8px;
+	font-size: 35px;
+	font-weight: 600;
+}
+
+/* krovato*/
+
+.main__wrapper-krovato {
+	padding: 40px 16px;
+	max-width: 1070px;
+	margin: 0 auto;
+	
+	
+}
+
+.krovato{
+	color: #2b2929;
+	font-family: "Proxima Nova", sans-serif;
+}
+
+
+
+
+.krovato__title {
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 1.2;
+}
+
+.krovato__image img{
+	border-radius: 8px;
+	max-width: 100%;
+}
+
+.krovato__title,
+.krovato__titl-content,
+ul,
+.krovato__image img {
+	margin-bottom: 40px;
+
+}
+
+.krovato__text {
+	line-height: 30px;
+	
+}
+.krovato__text p{
+	margin-top: 15px;
+}
+
+.krovato__list-title {
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 600;
+}
+
+.krovato__list {
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.krovato__list li{
+	margin-top: 20px;
+	background: url(../img/krovato/mark.png) no-repeat;
+	padding-left: 47px;
+	
+}
+
+.krovato__list-title :last-child {
+	margin-bottom: 30px;
+}
+
+
+
+
+/* eduplay */
+
+.eduplay {
+	background: url(../img/eduplay/background.png) center / cover #914dff;
+	color: #fff;
+	font-family: "Quicksand", sans-serif;
+}
+
+
+.eduplay__row {
+	text-align: center;
+}
+
+.eduplay__col {
+	display: inline-block;
+	vertical-align: middle;
+	padding-inline: 65px;
+}
+
+
+.eduplay__main {
+	width: 600px;
+	text-align: start;
+}
+
+.eduplay__title,
+.eduplay__text,
+.eduplay__button{
+	margin: 24px 0;
+}
+
+.eduplay__title {
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 48px;
+}
+
+.eduplay__text {
+	font-size: 20px;
+	line-height: 32px;
+}
+
+.eduplay__button {
+	font-size: 16px;
+	background: url(../img/eduplay/hat.png)15px no-repeat;
+	padding: 12px 20px 12px 35px;
+	border-radius: 8px;
+	font-weight: 700;
+	line-height: 25px;
+	color: #0d1216;
+	background-color: #fff;
+}
+
+/* ecommerce */
+
+.ecommerce {
+	padding-top: 150px;
+	font-family: "Roboto", sans-serif;
+	color: #000;
+	background: url(../img/ecommerce/flower-pattern\ 1.png) left 75% no-repeat,
+		url(../img/ecommerce/flower-pattern2.png)100% 65% no-repeat #e6e5e5;
+}
+
+.ecommerce__container {
+	padding: 100px 0;
+}
+
+.ecommerce__row {
+	text-align: center;
+}
+
+.ecommerce__col {
+	display: inline-block;
+	vertical-align: middle;
+	padding-inline: 100px;
+	vertical-align: top;
+}
+
+.ecommerce__main {
+	max-width: 682px;
+	text-align: start
+}
+
+.ecommerce__title {
+	font-size: 74px;
+	line-height: 55px;
+	font-weight: 300;
+	margin: 52px 0;
+}
+
+.ecommerce__text {
+	line-height: 55px;
+	font-size: 30px;
+	margin: 52px 0 66px 0;
+}
+
+.ecommerce__button {
+	font-size: 29px;
+	color: #fff;
+	background: url(../img/ecommerce/bag-icon\ .png) 20px no-repeat #1E2832;
+	padding: 20px 20px 20px 56px;
+}
+
+.ecommerce__image,
+.ecommerce__image img {
+	border-radius: 37% 0% 35% 0% / 33% 0% 38% 0%;
+}
+
+.ecommerce__image {
+	box-shadow: 0 0 0 2px #00000040;
+}
+
+.ecommerce__image img {
+	margin: -20px 20px 20px -20px;
+}
+
+.footer {
+	background-color: #333232;
+	height: 150px;
+	text-align: center;
+	font-family: "Quicksand", sans-serif;
+
+}
+.link{
+	margin-top: 35px;
+	display: inline-block;
+	color: #d8c77b;
+	font-size: 35px;
+	font-weight: 700;
+	letter-spacing: 8px;
+	background: #823fec;
+	padding: 20px;
+	border-radius: 60% 100% 100% 70% / 60% 0% 100% 30%;
+	box-shadow: 2px 3px 0 2px #adacac;
+	
+}
+
+.link:hover{
+	border-radius: 40%;
+	box-shadow:  0 0 0 5px  #fc4545;
+	 transition-duration: 0.2s; /* знаю,що ще не можна. Але не сваріть) */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
