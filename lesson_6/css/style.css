@@ -40,6 +40,7 @@
 
 .krovato__image img{
 	border-radius: 8px;
+	max-width: 100%;
 }
 
 .krovato__title,
