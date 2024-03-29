@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>lesson 5 DZ</title>
+	<link rel="stylesheet" href="css/styleProperties.css">
+</head>
+
+<body>
+	<header id="start" class="header">
+		<div class="header__title">
+			<h1>тут будть властивості CSS з 5 уроку</h1>
+		</div>
+	</header>
+	<main class="main">
+		<div class="main__title">
+			<p>
+				спочатку покажу різницю між блочним тегом(<marker class="marker-div">div</marker>) та рядковим (<marker
+					class="marker-span">span</marker>)
+			</p>
+		</div>
+		<div class="main__block1">
+			<div>
+				<marker class="marker-div">div</marker> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+				corporis.
+			</div>
+			<div>
+				<marker class="marker-div">div</marker> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+				corporis.
+			</div>
+			<div>
+				<marker class="marker-div">div</marker> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+				corporis.
+			</div>
+			<span>
+				<marker class="marker-span">span</marker> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+				fuga.
+			</span>
+			<span>
+				<marker class="marker-span">span</marker> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+				fuga.
+			</span>
+			<span>
+				<marker class="marker-span">span</marker> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+				fuga.
+			</span>
+		</div>
+		<div class="main__text">
+			<p>
+				ми бачимо, що кожен тег div займає свій рядок. А span стає друг за другом. Буде краще видно якщо додати
+				властивість background-color: для кожного тега
+			</p>
+		</div>
+		<div class="main__block2">
+			<div>
+				<marker class="marker-div">div</marker> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+				corporis.
+			</div>
+			<span>
+				<marker class="marker-span">span</marker> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+				fuga.
+			</span>
+		</div>
+		<div class="main__text">
+			<p>
+				Але ми можемо це змінити властивістю display: <br> для div поставимо display: inline; <br> для span
+				поставимо display: block;
+			</p>
+		</div>
+		<div class="main__block3">
+			<div>
+				<marker class="marker-div">div</marker> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+				corporis.
+			</div>
+			<span>
+				<marker class="marker-span">span</marker> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+				fuga.
+			</span>
+		</div>
+		<div class="main__text">
+			<p>
+				Все змінилось. div тепер обмеженний контентом і не займає всю частину сторінки <br>
+				а span навпаки тепер почав займати весь рядок сторінки. <br>
+				Є ще одна гібридна властивість inline-block: яка поєднує одразу дві властивості в одну (Елемент
+				відображається як
+				рядковий але з можливістю
+				використання усіх CSS-властивостей)
+				І це дуже круто. Можна сказати, що це магія. <br>
+				За допомогою цьєї властивості ми можем робити багато цікавого
+			</p>
+		</div>
+		<div class="main__block4">
+			<div class="main__title">
+				<h2>відступи pading</h2>
+				<p class="main__text">
+					за допомогою властивості pading ми можемо робити внутрішній відступ
+				</p>
+			</div>
+			<div class="block4__content">
+				<div class="block4__columns">
+					<div class="block4__column1 column">
+						pading-top: 30px;
+					</div>
+					<div class="block4__column2 column">
+						pading-right: 30px;
+					</div>
+					<div class="block4__column3 column">
+						pading-dottom: 30px;
+					</div>
+					<div class="block4__column4 column">
+						pading-left: 30px;
+					</div>
+				</div>
+				<div class="main__text">
+					<p>
+						також можем використовувати цифрові значення падінга
+					</p>
+				</div>
+				<div class="block4__columns">
+					<div class="block4__column5 column">
+						padding: 30px 0 0 0;
+					</div>
+					<div class="block4__column6 column">
+						padding: 0 30px 0 0;
+					</div>
+					<div class="block4__column7 column">
+						padding: 0 0 30px 0;
+					</div>
+					<div class="block4__column8 column">
+						padding: 0 0 0 30px;
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main__block5">
+			<div class="main__title">
+				<h2>відступи margin</h2>
+				<p class="main__text">
+					за допомогою властивості margin ми можемо робити зовнішні відступи
+				</p>
+			</div>
+			<div class="main__margin marggin">
+				<div class="marggin__container">
+					<div class="marggin__block1 margin-block">
+						На цьому блоці зробили відступ за допомогою. margin-right: 100px;
+					</div>
+					<div class="marggin__block2 margin-block">
+						Цей блок без змін. Він знаходиться по центру
+					</div>
+					<div class="marggin__block6 margin-block">
+						цей блок накладається на блок вище. margin: -50px 0 0 20px;
+					</div>
+					<div class="marggin__block3 margin-block">
+						На цьому блоці зробили відступ за допомогою. margin-top: 100px;
+					</div>
+					<div class="marggin__block4 margin-block">
+						На цьому блоці зробили відступ за допомогою.margin-left: 100px;
+					</div>
+					<div class="marggin__block5 margin-block">
+						На цьому блоці зробили відступ за допомогою.margin-bottom: 100px;
+					</div>
+
+					<div class="marggin__block8 margin-block">
+						На цьому блоці є схлопування.margin-bottom: 50px;(програв)
+					</div>
+					<div class="marggin__block9 margin-block">
+						На цьому блоці є схлопування.margin-top: 100px; (виграв)
+					</div>
+				</div>
+			</div>
+		</div>
+		< class="main__block5">
+			<div class="main__title">
+				<h2>width-height</h2>
+			</div>
+			<p class="main__text">
+				тут я вас познайомлю з властивостями width та height
+			</p>
+			<div class="main__width-height width-height">
+				<div class="width-height__container">
+					<div class="width-height__block1 blockk">
+						<p>
+							Тут max-width: 300px; max-height: 90px; текст вилазить за блок amet nihil aperiam sint blanditiis
+							culpa?
+						</p>
+						<p>
+							Тут max-width: 300px; max-height: 90px; текст вилазить за блок amet nihil aperiam sint blanditiis
+							culpa?
+						</p>
+					</div>
+					<div class="width-height__block2 blockk">
+						<p>
+							тут все теж саме але є властивість overflow: hidden; amet nihil aperiam sint blanditiis
+							culpa?
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae amet nihil aperiam sint blanditiis
+							culpa?
+						</p>
+					</div>
+					<div class="width-height__block3 blockk">
+						<p>
+							тут min-width: 300px; Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis iusto,
+							sit dolor provident necessitatibus delectus ipsa placeat id labore aut aliquam vel, sequi, quas
+							architecto deserunt. Ipsum tempora cumque modi?
+						</p>
+					</div>
+					<div class="width-height__block4 blockk">
+						<p>
+							тут min-height: 300px; Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae amet nihil
+							aperiam sint blanditiis
+							culpa?
+						</p>
+					</div>
+					<div class="width-height__block5 blockk">
+						<p>
+							тут overflow: auto; Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae amet nihil
+							aperiam sint
+							blanditiis
+							culpa?
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae amet nihil
+							aperiam sint
+							blanditiis
+							culpa?
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae amet nihil
+							aperiam sint
+							blanditiis
+							culpa?
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae amet nihil
+							aperiam sint
+							blanditiis
+							culpa?
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae amet nihil
+							aperiam sint
+							blanditiis
+							culpa?
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae amet nihil
+							aperiam sint
+							blanditiis
+							culpa?
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae amet nihil
+							aperiam sint
+							blanditiis
+							culpa?
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae amet nihil
+							aperiam sint
+							blanditiis
+							culpa?
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae amet nihil
+							aperiam sint
+							blanditiis
+							culpa?
+						</p>
+					</div>
+					<div class="width-height__block6 blockk">
+						<p>
+							тут overflow: scroll; Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae amet nihil
+							aperiam sint
+							blanditiis
+							culpa?
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae amet nihil
+							aperiam sint
+							blanditiis
+							culpa?
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae amet nihil
+							aperiam sint
+							blanditiis
+							culpa?
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae amet nihil
+							aperiam sint
+							blanditiis
+							culpa?
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae amet nihil
+							aperiam sint
+							blanditiis
+							culpa?
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae amet nihil
+							aperiam sint
+							blanditiis
+							culpa?
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae amet nihil
+							aperiam sint
+							blanditiis
+							culpa?
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae amet nihil
+							aperiam sint
+							blanditiis
+							culpa?
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae amet nihil
+							aperiam sint
+							blanditiis
+							culpa?
+						</p>
+					</div>
+				</div>
+			</div>
+			</div>
+	</main>
+	<footer class="footer">
+		<div class="footer__bottom bottom">
+			<div class="bottom__container">
+				<div class="bottom__block1 block">
+					<a href="indexContacts.html">контакти</a>
+				</div>
+				<div class="bottom__block2 block">
+					<a href="index.html">повернутись на сторінку з версткою </a>
+				</div>
+				<div class="bottom__block3 block">
+					<a href="#start">до гори </a>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
