@@ -1,0 +1,225 @@
+@import url(fonts.css);
+
+/* Oswald */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* Quicksand */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+@import url(reset.css);
+
+/* ------block1----- */
+
+header,
+footer {
+	color: #efefef;
+	background-color: #252525;
+	text-align: center;
+	font-size: 35px;
+	line-height: 1.5;
+	text-transform: uppercase;
+	font-family: "Oswald";
+}
+
+body {
+	font-size: 0;
+}
+
+
+
+.block1__container {
+	font-family: "proximanova";
+	max-width: 1070px;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+
+
+.title,
+.title__text,
+.block1__text :not(:last-child) {
+	margin-bottom: 40px;
+}
+
+.title__text {
+	font-size: 40px;
+	line-height: 1.2;
+	font-weight: 700;
+}
+
+.title__image img {
+	width: 100%;
+	border-radius: 8px;
+}
+
+.block1__text {
+	font-size: 16px;
+	line-height: 1.8;
+}
+
+.block1__text p {
+	margin-bottom: 10px;
+}
+
+
+.block1__sub-title {
+	font-size: 20px;
+	line-height: 1.4;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+
+.list__items {
+	font-size: 16px;
+	line-height: 1.87;
+	margin-bottom: 20px;
+	padding-left: 47px;
+	background: url(../img/krovato/mark.svg)no-repeat;
+}
+
+.list p {
+	line-height: 1.87;
+}
+
+/* ------block2------÷ */
+
+
+
+.main__block2 {
+	font-family: "Roboto", sans-serif;
+	color: #000;
+	background: url(img/coral/branchbackground1.svg)left 75% no-repeat,
+		url(img/coral/branchbackground2.svg)100% 55% no-repeat #f0f0f0;
+}
+
+
+.block2__container {
+	max-width: 1320px;
+	margin: 0 auto;
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+}
+
+
+.column__block2 {
+	display: inline-block;
+	vertical-align: middle;
+	padding-inline: 50px;
+}
+
+.column__content {
+	max-width: 685px;
+}
+
+
+.content__title {
+	font-size: 74px;
+	line-height: 0.71;
+	font-weight: 300;
+	margin-bottom: 52px;
+}
+
+.content__text {
+	font-size: 30px;
+	line-height: 1.83;
+	text-transform: capitalize;
+	margin-bottom: 66px;
+	font-weight: 300;
+}
+
+
+.content__button a {
+	color: #fff;
+	font-weight: 300;
+	text-transform: capitalize;
+	font-size: 29px;
+	background: url(../img/coral/bagicon.svg)23px no-repeat #1e2832;
+	padding: 20px 20px 20px 60px;
+	transition-duration: 0.4s;
+}
+
+.content__button a:hover {
+	border-radius: 20px 0 20px 0;
+	background-color: #394f64;
+}
+
+
+.column__photo img {
+	margin: -20px 20px 20px -20px;
+}
+
+.column__photo,
+.column__photo img {
+	border-radius: 37% 0% 35% 0% / 33% 0% 38% 0%;
+}
+
+.column__photo {
+	border: 2px solid #959595;
+
+}
+
+/* ---block3--- */
+
+
+
+.main__block3 {
+	background: url(img/enduPlay/background.png) center / cover #914dff;
+	color: #fff;
+	font-family: "Quicksand", sans-serif;
+
+}
+
+
+.block3__container {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+
+.col__block3 {
+	display: inline-block;
+	vertical-align: middle;
+	padding-inline: 64px;
+}
+
+.col__info {
+	max-width: 600px;
+}
+
+
+
+.info__title {
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.2;
+}
+
+.info__text {
+	font-size: 20px;
+	line-height: 1.6;
+	font-weight: 500;
+}
+
+.info__button a {
+	color: #0d1216;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1.56;
+	background-color: #fff;
+	padding: 12px 20px;
+	border-radius: 8px;
+	transition-duration: 0.4s;
+}
+
+.info__title,
+.info__text,
+.info__button :not(:last-child) {
+	margin-bottom: 24px;
+}
+
+.info__button a:hover {
+	box-shadow: 5px 5px 5px #4e4d4d;
+}
