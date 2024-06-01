@@ -1,0 +1,426 @@
+@import url(fonts.css);
+
+/* Oswald */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* Quicksand */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+/* Exo */
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+/* Orbitron */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+
+
+
+@import url(reset.css);
+
+
+
+
+
+
+/* ------block1----- */
+/* ------krovato----- */
+header,
+footer {
+	color: #efefef;
+	background-color: #252525;
+	text-align: center;
+	font-size: 35px;
+	line-height: 1.5;
+	text-transform: uppercase;
+	font-family: "Oswald";
+}
+
+.link-page:hover {
+	text-decoration: underline;
+}
+
+body {
+	font-size: 0;
+}
+
+.block1 {
+	color: #2b2929;
+	font-family: "proximanova";
+}
+
+.block1__container {
+	max-width: 1070px;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+
+.title__text,
+.block1__title,
+.block1__text,
+.list__item {
+	margin-bottom: 40px;
+}
+
+
+.title__text {
+	font-size: 40px;
+	line-height: 1.2;
+	font-weight: 700;
+}
+
+.title__image img {
+	width: 100%;
+	border-radius: 8px;
+}
+
+.block1__text {
+	font-size: 16px;
+	line-height: 1.8;
+}
+
+.block1__text p:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+
+.block1__sub-title {
+	font-size: 20px;
+	line-height: 1.4;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+
+.list__items {
+	font-size: 16px;
+	line-height: 1.87;
+
+	/* padding-left: 47px;
+	background: url(../img/krovato/mark.svg)no-repeat; */
+}
+
+.list__items:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+
+
+.list__items::before {
+	content: "";
+	background: url(../img/krovato/mark.svg)0 0 / 100% no-repeat;
+	width: 32px;
+	height: 32px;
+	transition: all 0.3s;
+}
+
+.list__items:hover::before {
+	width: 40px;
+	height: 40px;
+	margin-top: 20px;
+}
+
+.list__hover:hover {
+	background: linear-gradient(90deg, rgba(241, 241, 241, 1) 13%, rgba(255, 255, 255, 1) 77%);
+	border-radius: 15px;
+}
+
+
+.list__hover {
+	line-height: 1.87;
+	font-size: 16px;
+	max-width: 90%;
+	display: inline-block;
+	vertical-align: top;
+	transition: all 0.4s;
+	padding-left: 15px;
+}
+
+.list__bottom-text p {
+
+	font-size: 16px;
+	line-height: 1.87;
+
+}
+
+/* ------block2------÷ */
+
+
+
+.main__block2 {
+	background: url(/img/about/bgabout.png) center/ cover;
+	color: #fff;
+	font-family: "Exo", sans-serif;
+	text-align: center;
+}
+
+.block2 {}
+
+.block2__container {
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 35px 0;
+}
+
+.block2__title h2 {
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 1.16;
+	text-transform: uppercase;
+}
+
+.block2__title h2::after {
+	content: "";
+	height: 1px;
+	background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(66, 255, 0, 1) 50%, rgba(36, 0, 255, 1) 100%);
+	width: 25%;
+	display: block;
+	margin: 20px auto;
+}
+
+.block2__text {
+	font-size: 18px;
+	line-height: 2.22;
+	letter-spacing: -1px;
+	text-transform: capitalize;
+	max-width: 910px;
+	display: inline-block;
+	font-weight: 300;
+	margin-bottom: 60px;
+}
+
+
+
+.about-list {
+	font-family: "Orbitron", sans-serif;
+
+}
+
+.about-list__item {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.25;
+	display: inline-block;
+	text-transform: capitalize;
+	padding-inline: 30px;
+	transition: 0.3s;
+	cursor: pointer;
+	margin-bottom: 80px;
+}
+
+.about-list__item:hover {
+	color: transparent;
+	background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(66, 255, 0, 1) 40%, rgba(36, 0, 255, 1) 70%);
+	background-clip: text;
+
+}
+
+.about-list__item::after {
+	content: "";
+	background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(66, 255, 0, 1) 50%, rgba(36, 0, 255, 1) 100%);
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	margin-left: 60px;
+}
+
+.block2__contacts {}
+
+.contacts {}
+
+.item-contacts {
+	display: inline-block;
+	padding-inline: 40px;
+	font-size: 20px;
+	line-height: 1;
+	letter-spacing: -1px;
+	transition: 0.3s;
+}
+
+
+
+/* .contacts__tel::before {
+	content: "";
+	background: url(/img/about/Call.svg)0 0 no-repeat;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 10px;
+}
+
+
+
+
+.contacts__loc::before {
+	content: "";
+	background: url(/img/about/Location.svg)0 0 no-repeat;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 10px;
+}
+
+
+
+
+.contacts__email::before {
+	content: "";
+	background: url(/img/about/Email.svg)0 0 no-repeat;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+} */
+
+.contacts__tel {
+	background: url(/img/about/Call.svg)0 0 no-repeat;
+}
+
+.contacts__loc {
+	background: url(/img/about/Location.svg)0 0 no-repeat;
+}
+
+
+.contacts__email {
+	background: url(/img/about/Email.svg)0 2px no-repeat;
+}
+
+
+.contacts__tel:hover {
+	color: #ae52ff;
+}
+
+
+.contacts__loc:hover {
+	color: #ae52ff;
+}
+
+
+.contacts__email:hover {
+	color: #ae52ff;
+}
+
+/* -----game----- */
+
+
+
+
+.body-game {
+	background: linear-gradient(90deg, rgba(190, 224, 53, 1) 13%, rgba(120, 176, 240, 1) 93%);
+	font-size: 16px;
+}
+
+.main__conteiner {
+	max-width: 1300px;
+	min-height: 600px;
+	margin: 200px auto 0;
+	background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+.game__line-1 {
+	width: 50px;
+	height: 50px;
+}
+
+.game__line {
+	background-color: #ae52ff;
+}
+
+.game__line-2 {
+	width: 50px;
+	height: 50px;
+	visibility: hidden;
+}
+
+.game__line-1:hover+.game__line-2,
+.game__line-2:hover {
+	visibility: visible;
+}
+
+.game__line-2:hover+.game__line-1,
+.game__line-1:hover {
+	visibility: hidden;
+}
+
+
+
+.game__line-3 {}
+
+.game__line-3-1 {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.game__line {
+	background-color: #ae52ff;
+}
+
+.game__line-1 {
+	width: 50px;
+	height: 50px;
+}
+
+.game__line-2 {
+	width: 50px;
+	height: 50px;
+}
+
+.game__line-1:hover {
+	background-color: #6f20b4;
+}
+
+.game__line-1:hover+.game__line-2,
+.game__line-2:hover {
+	width: 80%;
+}
+
+.game__line-3 {
+	width: 986px;
+	height: 50px;
+	display: inline-block;
+}
+
+.game__line-3-1 {
+	visibility: hidden;
+	width: 50px;
+	height: 50px;
+}
+
+.game__line-2:hover~.game__line-3-1,
+.game__line-3-1:hover {
+	display: inline-block;
+	visibility: visible;
+} */
