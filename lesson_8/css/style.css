@@ -1,0 +1,131 @@
+@import url(fonts.css);
+
+/* Oswald */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* Quicksand */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+/* Exo */
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+/* Orbitron */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+
+
+
+@import url(reset.css);
+
+
+
+
+
+
+
+/* ------block1----- */
+header,
+footer {
+	color: #efefef;
+	background-color: #252525;
+	text-align: center;
+	font-size: 35px;
+	line-height: 1.5;
+	text-transform: uppercase;
+	font-family: "Oswald";
+}
+
+
+
+
+.main {}
+
+.main__web {}
+
+.web {}
+
+.web__container {
+	max-width: 600px;
+	margin: 100px auto 100px;
+	background-color: #bccfba;
+	min-height: 500px;
+	border-radius: 10px;
+	padding: 30px;
+}
+
+
+.marc-bottom {
+	background: url(../img/krovato/vector/icon/marc-bottom.svg) 0 5px no-repeat;
+}
+
+.vector-icon__items p::before {
+	content: "-";
+
+}
+
+.vector-icon__items {
+	padding-left: 30px;
+
+
+}
+
+.web__item-icon-vector:not(:last-child),
+.vector-icon__items:not(:last-child),
+.web__item-content-vector:not(:last-child),
+.vector-content__items:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+.marc-top {
+	background: url(../img/krovato/vector/icon/marc-top.svg)0 5px no-repeat;
+}
+
+.question {
+	background: url(../img/krovato/vector/icon/question.svg) no-repeat;
+	min-height: 34px;
+	padding-left: 50px;
+	line-height: 1.6;
+
+}
+
+
+
+.vector-content__items img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+.vector-content__items p {
+	display: inline-block;
+	padding-left: 10px;
+}
+
+
+
+.vector-content__items p::before {
+	content: "-";
+}
+
+
+.web__item-content-vector img:hover {
+	transform: scale(1.2);
+
+}
+
+.web__item-content-vector img {
+	transition: 0.2s;
+}
+
+p:hover {
+	color: #597200;
+	text-decoration: underline;
+}
+
+.web__content img {
+	max-width: 100%;
+
+}
+
+.web__content p {
+	text-align: center;
+}
