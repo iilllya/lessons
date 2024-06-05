@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="css/style.css">
+
+	<title>Lesson 9 бєм</title>
+</head>
+
+
+<body>
+	<div class="wapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__section-top top-section">
+					<!-- тільки як завершив писати header зрозумів, що перевертати назву не потрібно. типу спокійно можна було залишити 'header__section-top section-top' і так багато де по коду. я чомусь думав що це спропа їєрархії))  -->
+					<div class="top-section__container">
+						<nav class="top-section__nav nav">
+							<ul class="nav__item">
+								<li class="nav__items">
+									<a href="#">Про нас</a>
+								</li>
+								<li class="nav__items">
+									<a href="#">Оплата</a>
+								</li>
+								<li class="nav__items">
+									<a href="#">Доставка та збірка</a>
+								</li>
+								<li class="nav__items">
+									<a href="#">Відгуки</a>
+								</li>
+								<li class="nav__items">
+									<a href="#">Блог</a>
+								</li>
+								<li class="nav__items">
+									<a href="#">Контакти</a>
+								</li>
+							</ul>
+						</nav>
+						<div class="top-section__help help">
+							<p>
+								Допомога і консультація:
+							</p>
+							<a href="#"><img src="img/krovato/header/whatsapp.svg" alt=""></a>
+							<a href="#"><img src="img/krovato/header/telegram.svg" alt=""></a>
+							<a href="#"><img src="img/krovato/header/viber.svg" alt=""></a>
+						</div>
+						<div class="top-section__lang lang">
+							<div class="lang__button">
+								<p>
+									ua
+								</p>
+								<img src="img/krovato/header/Vector.svg" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header__section-middle middle-section">
+					<div class="middle-section__container">
+						<h1 class="middle-section__logo">
+							<a href="#"><img src="img/krovato/header/logo-header.svg" alt=""></a>
+						</h1>
+						<div class="middle-section__catalog">
+							Каталог
+						</div>
+						<div class="middle-section__search">
+							<input type="search" placeholder="пошук товарів">
+							<button><img src="img/krovato/header/poisk.svg" alt=""></button>
+						</div>
+						<div class="middle-section__number-phone phone-number">
+							<div class="phone-number__icon">
+								<img src="img/krovato/header/icon-tel.svg" alt="">
+							</div>
+							<div class="phone-number__schedule">
+								<p>
+									Щодня з 9:00 до 18:00
+								</p>
+							</div>
+							<!--можливо це не вірна назва, якщо так, то як краще було назвати?  phone-number__number-phone буде рахуватись помилкою -->
+							<div class="phone-number__num-phon">
+								067 929-45-45
+							</div>
+							<div class="phone-number__icon">
+								<img src="img/krovato/header/Vector.svg" alt="">
+							</div>
+						</div>
+						<div class="middle-section__favorites-basket">
+							<div class="middle-section__icon-favorites">
+								<a href="#"><img src="img/krovato/header/obrane.svg" alt=""></a>
+							</div>
+							<div class="middle-section__basket-icon">
+								<a href="#"><img src="img/krovato/header/korzina.svg" alt=""></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header__section-bottom bottom-section">
+					<div class="bottom-section__container">
+						<div class="bottom-section__sale sale">
+							<ul class="sale__item">
+								<li class="sale__items">
+									<img src="img/krovato/header/akcii.svg" alt="">
+									<a href="#">Акції</a>
+								</li>
+								<li class="sale__items">
+									<img src="img/krovato/header/sale.svg" alt="">
+									<a href="#">Розпродаж</a>
+								</li>
+								<li class="sale__items">
+									<img src="img/krovato/header/kredit.svg" alt="">
+									<a href="#">Купити в кредит</a>
+								</li>
+							</ul>
+						</div>
+						<div class="bottom-section__menu menu">
+							<ul class="menu__items">
+								<li class="menu__item">
+									<a href="#">Дитяча</a>
+								</li>
+								<li class="menu__item">
+									<a href="#">Кухня</a>
+								</li>
+								<li class="menu__item">
+									<a href="#">Ванна</a>
+								</li>
+								<li class="menu__item">
+									<a href="#">Спальня</a>
+								</li>
+								<li class="menu__item">
+									<a href="#">Передпокій</a>
+								</li>
+								<li class="menu__item">
+									<a href="#">Вітальня</a>
+								</li>
+								<li class="menu__item">
+									<a href="#">Офіс</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<div class="main__popular-categories popular">
+				<div class="popular__container">
+					<h2 class="popular__title title">Популярні категорії</h2>
+					<ul class="popular__grid"> <!-- чи правильно  тут замість div зробити ul -->
+						<li class="popular__card card"> <!--а тут li -->
+							<h3 class="card__title">
+								<a href="#">Ліжка</a>
+							</h3>
+							<div class="card__number">
+								<p>
+									<a href="#">54</a>
+								</p>
+							</div>
+							<div class="card__content-image">
+								<img src="img/krovato/main/popular/img01.webp" alt="">
+							</div>
+							<div class="card__icon-image">
+								<a href="#"><img src="img/krovato/main/popular/Vector.svg" alt=""></a>
+							</div>
+						</li>
+						<li class="popular__card card">
+							<h3 class="card__title">
+								<a href="#">Матраци</a>
+							</h3>
+							<div class="card__number">
+								<p>
+									<a href="#">34</a>
+								</p>
+							</div>
+							<div class="card__content-image">
+								<img src="img/krovato/main/popular/img02.webp" alt="">
+							</div>
+							<div class="card__icon-image">
+								<a href="#"><img src="img/krovato/main/popular/Vector.svg" alt=""></a>
+							</div>
+						</li>
+						<li class="popular__card card">
+							<h3 class="card__title">
+								<a href="#">М'які меблі</a>
+							</h3>
+							<div class="card__number">
+								<p>
+									<a href="#">78</a>
+								</p>
+							</div>
+							<div class="card__content-image">
+								<img src="img/krovato/main/popular/img03.webp" alt="">
+							</div>
+							<div class="card__icon-image">
+								<a href="#"><img src="img/krovato/main/popular/Vector.svg" alt=""></a>
+							</div>
+						</li>
+						<li class="popular__card card">
+							<h3 class="card__title">
+								<a href="#">Шафи</a>
+							</h3>
+							<div class="card__number">
+								<p>
+									<a href="#">12</a>
+								</p>
+							</div>
+							<div class="card__content-image">
+								<img src="img/krovato/main/popular/img04.webp" alt="">
+							</div>
+							<div class="card__icon-image">
+								<a href="#"><img src="img/krovato/main/popular/Vector.svg" alt=""></a>
+							</div>
+						</li>
+						<li class="popular__card card">
+							<h3 class="card__title">
+								<a href="#">Комоди</a>
+							</h3>
+							<div class="card__number">
+								<p>
+									<a href="#">23</a>
+								</p>
+							</div>
+							<div class="card__content-image">
+								<img src="img/krovato/main/popular/img05.webp" alt="">
+							</div>
+							<div class="card__icon-image">
+								<a href="#"><img src="img/krovato/main/popular/Vector.svg" alt=""></a>
+							</div>
+						</li>
+						<li class="popular__card card">
+							<h3 class="card__title">
+								<a href="#">Тумби</a>
+							</h3>
+							<div class="card__number">
+								<p>
+									<a href="#">32</a>
+								</p>
+							</div>
+							<div class="card__content-image">
+								<img src="img/krovato/main/popular/img06.webp" alt="">
+							</div>
+							<div class="card__icon-image">
+								<a href="#"><img src="img/krovato/main/popular/Vector.svg" alt=""></a>
+							</div>
+						</li>
+						<li class="popular__card card">
+							<h3 class="card__title">
+								<a href="#">Столи</a>
+							</h3>
+							<div class="card__number">
+								<p>
+									<a href="#">40</a>
+								</p>
+							</div>
+							<div class="card__content-image">
+								<img src="img/krovato/main/popular/img07.webp" alt="">
+							</div>
+							<div class="card__icon-image">
+								<a href="#"><img src="img/krovato/main/popular/Vector.svg" alt=""></a>
+							</div>
+						</li>
+						<li class="popular__card card">
+							<h3 class="card__title">
+								<a href="#">Стільці</a>
+							</h3>
+							<div class="card__number">
+								<p>
+									<a href="#">23</a>
+								</p>
+							</div>
+							<div class="card__content-image">
+								<img src="img/krovato/main/popular/img08.webp" alt="">
+							</div>
+							<div class="card__icon-image">
+								<a href="#"><img src="img/krovato/main/popular/Vector.svg" alt=""></a>
+							</div>
+						</li>
+						<li class="popular__card card">
+							<h3 class="card__title">
+								<a href="#">Меблеві стіни</a>
+							</h3>
+							<div class="card__number">
+								<p>
+									<a href="#">8</a>
+								</p>
+							</div>
+							<div class="card__content-image">
+								<img src="img/krovato/main/popular/img09.webp" alt="">
+							</div>
+							<div class="card__icon-image">
+								<a href="#"><img src="img/krovato/main/popular/Vector.svg" alt=""></a>
+							</div>
+						</li>
+						<li class="popular__card card">
+							<h3 class="card__title">
+								<a href="#">Кухні</a>
+							</h3>
+							<div class="card__number">
+								<p>
+									<a href="#">28</a>
+								</p>
+							</div>
+							<div class="card__content-image">
+								<img src="img/krovato/main/popular/img10.webp" alt="">
+							</div>
+							<div class="card__icon-image">
+								<a href="#"><img src="img/krovato/main/popular/Vector.svg" alt=""></a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="main__product-categories product">
+				<div class="product__container">
+					<div class="product__items-title">
+						<h2 class="product__title title">Найпопулярніші товари</h2>
+						<a href="#">
+							Дивитись всі
+							<img src="img/krovato/main/popular/Vector.svg" alt="">
+						</a>
+					</div>
+					<ul class="product__grid">
+						<li class="product__card card-product">
+							<div class="card-product__content-image">
+								<img src="img/krovato/main/card-product/img01.webp" alt="">
+							</div>
+							<div class="card-product__size">
+								<p>
+									Розмір: 61 x 184 x 2130 мм
+								</p>
+							</div>
+							<h3 class="card-product__title">
+								Ліжко Спарта / Sparta з підйомним механізмом
+							</h3>
+							<div class="card-product__available">
+								<img src="img/krovato/main/card-product/check.svg" alt="">
+								<p>
+									В наявності
+								</p>
+							</div>
+							<div class="card-product__price">
+								<p>
+									25 400 грн.
+								</p>
+								<p>
+									15 400 грн.
+								</p>
+							</div>
+							<div class="card-product__favorites-basket">
+								<div class="card-product__icon-favorites">
+									<a href="#">
+										<img src="img/krovato/main/card-product/obrane.svg" alt="">
+									</a>
+								</div>
+								<div class="card-product__basket-icon">
+									<a href="#">
+										<img src="img/krovato/main/card-product/korzina.svg" alt="">
+									</a>
+								</div>
+							</div>
+						</li>
+						<li class="product__card card-product">
+							<div class="card-product__content-image">
+								<img src="img/krovato/main/card-product/img02.webp" alt="">
+							</div>
+							<div class="card-product__size">
+								<p>
+									Розмір: 61 x 184 x 2130 мм
+								</p>
+							</div>
+							<h3 class="card-product__title">
+								Ліжко Аргон з підйомним механізмом
+							</h3>
+							<div class="card-product__available">
+								<img src="img/krovato/main/card-product/check.svg" alt="">
+								<p>
+									В наявності
+								</p>
+							</div>
+							<div class="card-product__price">
+								<p>
+									16 400грн.
+								</p>
+							</div>
+							<div class="card-product__favorites-basket">
+								<div class="card-product__icon-favorites">
+									<a href="#">
+										<img src="img/krovato/main/card-product/obrane.svg" alt="">
+									</a>
+								</div>
+								<div class="card-product__basket-icon">
+									<a href="#">
+										<img src="img/krovato/main/card-product/korzina.svg" alt="">
+									</a>
+								</div>
+							</div>
+						</li>
+						<li class="product__card card-product">
+							<div class="card-product__content-image">
+								<img src="img/krovato/main/card-product/img03.webp" alt="">
+							</div>
+							<div class="card-product__size">
+								<p>
+									Розмір: 61 x 184 x 2130 мм
+								</p>
+							</div>
+							<h3 class="card-product__title">
+								Ліжко Престиж з підйомним механізмом
+							</h3>
+							<div class="card-product__available">
+								<img src="img/krovato/main/card-product/check.svg" alt="">
+								<p>
+									В наявності
+								</p>
+							</div>
+							<div class="card-product__price">
+								<p>
+									14 969грн.
+								</p>
+							</div>
+							<div class="card-product__favorites-basket">
+								<div class="card-product__icon-favorites">
+									<a href="#">
+										<img src="img/krovato/main/card-product/obrane.svg" alt="">
+									</a>
+								</div>
+								<div class="card-product__basket-icon">
+									<a href="#">
+										<img src="img/krovato/main/card-product/korzina.svg" alt="">
+									</a>
+								</div>
+							</div>
+						</li>
+						<li class="product__card card-product">
+							<div class="card-product__content-image">
+								<img src="img/krovato/main/card-product/img04.webp" alt="">
+							</div>
+							<div class="card-product__size">
+								<p>
+									Розмір: 61 x 184 x 2130 мм
+								</p>
+							</div>
+							<h3 class="card-product__title">
+								Диван Токіо-2
+							</h3>
+							<div class="card-product__available">
+								<img src="img/krovato/main/card-product/check.svg" alt="">
+								<p>
+									В наявності
+								</p>
+							</div>
+							<div class="card-product__price">
+								<p>
+									13 211 грн.
+								</p>
+							</div>
+							<div class="card-product__favorites-basket">
+								<div class="card-product__icon-favorites">
+									<a href="#">
+										<img src="img/krovato/main/card-product/obrane.svg" alt="">
+									</a>
+								</div>
+								<div class="card-product__basket-icon">
+									<a href="#">
+										<img src="img/krovato/main/card-product/korzina.svg" alt="">
+									</a>
+								</div>
+							</div>
+						</li>
+						<li class="product__card card-product">
+							<div class="card-product__content-image">
+								<img src="img/krovato/main/card-product/img05.webp" alt="">
+							</div>
+							<div class="card-product__size">
+								<p>
+									Розмір: 61 x 184 x 2130 мм
+								</p>
+							</div>
+							<h3 class="card-product__title">
+								Матрац Largo SLIM / Ларго Слім
+							</h3>
+							<div class="card-product__available">
+								<img src="img/krovato/main/card-product/check.svg" alt="">
+								<p>
+									В наявності
+								</p>
+							</div>
+							<div class="card-product__price">
+								<p>
+									3 122грн.
+								</p>
+								<p>
+									2 810 грн.
+								</p>
+							</div>
+							<div class="card-product__favorites-basket">
+								<div class="card-product__icon-favorites">
+									<a href="#">
+										<img src="img/krovato/main/card-product/obrane.svg" alt="">
+									</a>
+								</div>
+								<div class="card-product__basket-icon">
+									<a href="#">
+										<img src="img/krovato/main/card-product/korzina.svg" alt="">
+									</a>
+								</div>
+							</div>
+						</li>
+						<li class="product__card card-product">
+							<div class="card-product__content-image">
+								<img src="img/krovato/main/card-product/img06.webp" alt="">
+							</div>
+							<div class="card-product__size">
+								<p>
+									Розмір: 61 x 184 x 2130 мм
+								</p>
+							</div>
+							<h3 class="card-product__title">
+								Матрац ARGENTUM AMALTEA / Аргентум Амалті
+							</h3>
+							<div class="card-product__available">
+								<img src="img/krovato/main/card-product/check.svg" alt="">
+								<p>
+									В наявності
+								</p>
+							</div>
+							<div class="card-product__price">
+								<p>
+									5 966 грн.
+								</p>
+								<p>
+									5 071 грн.
+								</p>
+							</div>
+							<div class="card-product__favorites-basket">
+								<div class="card-product__icon-favorites">
+									<a href="#">
+										<img src="img/krovato/main/card-product/obrane.svg" alt="">
+									</a>
+								</div>
+								<div class="card-product__basket-icon">
+									<a href="#">
+										<img src="img/krovato/main/card-product/korzina.svg" alt="">
+									</a>
+								</div>
+							</div>
+						</li>
+						<li class="product__card card-product">
+							<div class="card-product__content-image">
+								<img src="img/krovato/main/card-product/img07.webp" alt="">
+							</div>
+							<div class="card-product__size">
+								<p>
+									Розмір: 61 x 184 x 2130 мм
+								</p>
+							</div>
+							<h3 class="card-product__title">
+								Диван Браво
+							</h3>
+							<div class="card-product__available">
+								<img src="img/krovato/main/card-product/check.svg" alt="">
+								<p>
+									В наявності
+								</p>
+							</div>
+							<div class="card-product__price">
+								<p>
+									10 008 грн.
+								</p>
+							</div>
+							<div class="card-product__favorites-basket">
+								<div class="card-product__icon-favorites">
+									<a href="#">
+										<img src="img/krovato/main/card-product/obrane.svg" alt="">
+									</a>
+								</div>
+								<div class="card-product__basket-icon">
+									<a href="#">
+										<img src="img/krovato/main/card-product/korzina.svg" alt="">
+									</a>
+								</div>
+							</div>
+						</li>
+						<li class="product__card card-product">
+							<div class="card-product__content-image">
+								<img src="img/krovato/main/card-product/img08.webp" alt="">
+							</div>
+							<div class="card-product__size">
+								<p>
+									Розмір: 61 x 184 x 2130 мм
+								</p>
+							</div>
+							<h3 class="card-product__title">
+								Ліжко МК-5
+							</h3>
+							<div class="card-product__available">
+								<img src="img/krovato/main/card-product/check.svg" alt="">
+								<p>
+									В наявності
+								</p>
+							</div>
+							<div class="card-product__price">
+								<p>
+									8 775 грн.
+								</p>
+							</div>
+							<div class="card-product__favorites-basket">
+								<div class="card-product__icon-favorites">
+									<a href="#">
+										<img src="img/krovato/main/card-product/obrane.svg" alt="">
+									</a>
+								</div>
+								<div class="card-product__basket-icon">
+									<a href="#">
+										<img src="img/krovato/main/card-product/korzina.svg" alt="">
+									</a>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</main>
+	</div>
+</body>
+
+</html>
